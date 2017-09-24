@@ -6,10 +6,40 @@ html {
   background-size: cover;
 }
 
+body {
+  font-family: Arial Narrow;
+  links: "White";
+}
+
+
 .stuff {
   background-color: rgba(0,0,0,0.7);
   text:color:white;
   color: white;
   padding: 30px;
   margin: 0 auto;
+
+}
+
+.links {
+  position:relative;
+  color: white;
+  top: 200px;
+  list-style-type: none;
+}
+
+.bio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 105px;
+  right: 0px;
+  background-color: rgba(0,0,0,0.7);
+  text:color:white;
+  color: white;
+  height:40%;
+  width: 40%;
+
+
 }
